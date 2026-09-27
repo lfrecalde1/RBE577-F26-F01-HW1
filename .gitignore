@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Recreated by the four-step workflow.
+/random_signal_results/
+/random_force_results/
+/neural_results/
+/allocation_comparison_results/
+/allocation_comparison_raw_results/
+
+# LaTeX build files. Keep the manuscript, figures, and compiled report.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+/report/*.log
+/report/figures/*.log
